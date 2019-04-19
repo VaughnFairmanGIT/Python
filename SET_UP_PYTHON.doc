@@ -1,0 +1,22 @@
+Directories:
+python - Contains a Python virtualenv. To activate this virtual environment, the user must do the following in a Linux shell (Putty).
+	1. Putty into <<WHAT EVER THE UNIX SERVER NAME IS>>
+	2. cd <<PATH GOES HERE>>
+	3. source bin/activate  this is important to make sure you are using the files in the
+                                                             aforementioned Python path
+                                                             (<<PATH GOES HERE>>)
+	NOTE: The "python" command will now run the version of python in this library.
+	4.  python <name of module>.py 
+
+	To move this virtual environment, you will need to do the following:
+	1. cd <<PATH GOES HERE>>
+	2. source bin/activate
+	3. virtualenv "<</path/to/linux_directory/>>"
+	4. cd <</path/to/linux_directory/>>
+	5. source bin/activate
+	6. pip install pandas==0.20.3
+	7. pip install xlsxwriter==0.9.8
+	8. pip install xlrd==1.0.0
+               9.pip install teradata
+               10.pip install openpyxl
+	11. pip install virtualenv   ***this allows to be to install virtualenv
